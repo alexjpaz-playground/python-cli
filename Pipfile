@@ -5,10 +5,12 @@ name = "pypi"
 
 [packages]
 pyinstaller = "*"
+"flake8" = "*"
 
 [dev-packages]
 
 [scripts]
+lint = "flake8"
 test = "python manage.py test"
 package = "pyinstaller --onefile manage.py"
 

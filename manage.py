@@ -1,9 +1,12 @@
-import os
 import sys
+
 
 class Main:
 
     def __init__(self, args=[]):
+        pass
+
+    def run_tests(self):
         pass
 
     def run(self):
