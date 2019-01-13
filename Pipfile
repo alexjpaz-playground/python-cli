@@ -6,10 +6,13 @@ name = "pypi"
 [packages]
 pyinstaller = "*"
 "flake8" = "*"
+sniffer = "*"
 
 [dev-packages]
+"MacFSEvents" = {version = "*", os_name = "== 'osx'"}
 
 [scripts]
+watch = "sniffer"
 lint = "flake8"
 test = "python manage.py test"
 package = "pyinstaller --onefile manage.py"
