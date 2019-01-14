@@ -13,7 +13,7 @@ sniffer = "*"
 
 [scripts]
 watch = "sniffer"
-lint = "flake8 ."
+lint = "flake8 manage.py"
 test = "python manage.py test"
 package = "pyinstaller --onefile manage.py"
 
