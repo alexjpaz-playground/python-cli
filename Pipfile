@@ -13,7 +13,7 @@ sniffer = "*"
 
 [scripts]
 watch = "sniffer"
-lint = "flake8 --exclude=./venv/*"
+lint = "flake8 --exclude=*venv/*"
 test = "python manage.py test"
 package = "pyinstaller --onefile manage.py"
 
